@@ -1,0 +1,1 @@
+import Link from " next/link\\n\nexport default function Home() {\n return (\n <div style={{ padding: \40px\ }}>\n <h1>NextJob 🚀</h1>\n <p>Find and post jobs easily</p>\n\n <div style={{ marginTop: \20px\ }}>\n <Link href=\/jobs\>Go to Jobs</Link>\n <br />\n <Link href=\/admin\>Go to Admin</Link>\n </div>\n </div>\n )\n}\n
